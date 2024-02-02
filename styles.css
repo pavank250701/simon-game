@@ -1,0 +1,71 @@
+body {
+  text-align: center;
+  background-color: #3C3633;
+}
+
+#level-title {
+  font-family: "Mina", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 50px;
+  margin:  5%;
+  color: #EEEDEB;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 8px solid rgb(0, 0, 0);
+  border-radius: 50%;
+}
+
+button{
+  background-color: #EEEDEB;
+  padding: 20px 30px;
+  border: none;
+  border-radius: 10px;
+  font-family: "Mina", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: #3C3633;
+}
+button:hover{
+  transition: 0.5s;
+  background-color: #abaaaa
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
